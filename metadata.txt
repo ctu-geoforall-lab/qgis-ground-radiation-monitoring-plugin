@@ -8,16 +8,16 @@
 
 [general]
 name=Ground Radiation Monitoring
-qgisMinimumVersion=2.0
+qgisMinimumVersion=2.14
 description=This plugin calculates the amount of received radiation. 
-version=0.1
+version=1.1BETA
 author=Michael Kala
 email=michael.kala@email.cz
 
 about=This plugin calculates the amount of received radiation.
 
-tracker=https://github.com/ctu-geoforall-lab-projects/bp-kala-2017
-repository=https://github.com/ctu-geoforall-lab-projects/bp-kala-2017
+tracker=https://github.com/ctu-geoforall-lab/qgis-ground-radiation-monitoring-plugin/issues
+repository=https://github.com/ctu-geoforall-lab/qgis-ground-radiation-monitoring-plugin
 # End of mandatory metadata
 
 # Recommended items:
@@ -28,7 +28,7 @@ repository=https://github.com/ctu-geoforall-lab-projects/bp-kala-2017
 # Tags are comma separated with spaces allowed
 tags=
 
-homepage=
+homepage=https://ctu-geoforall-lab.github.io/qgis-ground-radiation-monitoring-plugin/
 category=Plugins
 icon=icon.png
 # experimental flag
