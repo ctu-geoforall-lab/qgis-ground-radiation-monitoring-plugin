@@ -12,6 +12,8 @@ exercises (or during the nuclear disaster itself).
 The plugin was created for National Radiation Protection Institute
 (`SURO <http://www.suro.cz>`__).
 
+.. warning:: This plugin is currently available only for **QGIS 2.x**!
+
 .. toctree::
    :maxdepth: 2
 
