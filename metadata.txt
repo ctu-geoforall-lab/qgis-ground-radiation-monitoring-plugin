@@ -14,7 +14,7 @@ version=1.0.0
 author=Michael Kala
 email=michael.kala@email.cz
 
-about=This plugin calculates the amount of received radiation.
+about=This plugin computes the gamma radiation dose of a given route on an interpolated map of dose rate values. The secondary product of the plugin are basic statistics about the given route.
 
 tracker=https://github.com/ctu-geoforall-lab/qgis-ground-radiation-monitoring-plugin/issues
 repository=https://github.com/ctu-geoforall-lab/qgis-ground-radiation-monitoring-plugin
