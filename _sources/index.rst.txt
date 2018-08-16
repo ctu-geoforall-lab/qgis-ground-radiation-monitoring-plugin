@@ -18,3 +18,10 @@ The plugin was created for National Radiation Protection Institute
    installation
    user_guide
    acknowledgement
+
+.. note:: This plugin has been originally developed in
+          https://github.com/ctu-geoforall-lab-projects/bp-kala-2017. See
+          related bachelor thesis "Zásuvný modul QGIS pro pozemní
+          monitorování radiace" (`PDF
+          <https://github.com/ctu-geoforall-lab-projects/bp-kala-2017/raw/master/text/michael-kala-bp-2017.pdf>`__)
+          in Czech only.

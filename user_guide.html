@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>User Guide &mdash; Ground Radiation Monitoring QGIS Plugin 0.1 documentation</title>
+  <title>User Guide &mdash; Ground Radiation Monitoring QGIS Plugin 1.1BETA documentation</title>
   
 
   
@@ -24,27 +24,19 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Ground Radiation Monitoring QGIS Plugin 0.1 documentation" href="index.html"/>
-        <link rel="next" title="Acknowledgement" href="acknowledgement.html"/>
-        <link rel="prev" title="Installation" href="installation.html"/> 
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Acknowledgement" href="acknowledgement.html" />
+    <link rel="prev" title="Installation" href="installation.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -61,7 +53,7 @@
 
           
             
-            <img src="_static/icon.png" class="logo" />
+            <img src="_static/icon.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -69,7 +61,7 @@
             
             
               <div class="version">
-                0.1
+                1.1BETA
               </div>
             
           
@@ -115,7 +107,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">Ground Radiation Monitoring QGIS Plugin</a>
@@ -123,9 +115,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -207,7 +200,7 @@ length of them.</p>
 </div>
 <div class="section" id="gui">
 <h2>GUI<a class="headerlink" href="#gui" title="Permalink to this headline">¶</a></h2>
-<p>The plugin is divided into two tabs. The first of them is <code class="docutils literal"><span class="pre">Main</span></code> tab:</p>
+<p>The plugin is divided into two tabs. The first of them is <code class="docutils literal notranslate"><span class="pre">Main</span></code> tab:</p>
 <div class="figure align-center" id="id1">
 <img alt="_images/gui_main.png" src="_images/gui_main.png" />
 <p class="caption"><span class="caption-text">Figure 1: The main tab of plugin.</span></p>
@@ -220,32 +213,32 @@ boxes, which include available layers from the Layer panel. There is
 a restriction for the track combo box, that only the layer with a
 linestring type is being shown.</li>
 <li>Plugin also allows user to upload files with raster and vector layers
-via buttons <code class="docutils literal"><span class="pre">Load</span> <span class="pre">raster</span></code> and <code class="docutils literal"><span class="pre">Load</span> <span class="pre">track</span></code>. With hitting one of these
+via buttons <code class="docutils literal notranslate"><span class="pre">Load</span> <span class="pre">raster</span></code> and <code class="docutils literal notranslate"><span class="pre">Load</span> <span class="pre">track</span></code>. With hitting one of these
 buttons, a file dialog appears. Only GDAL/OGR supported files are shown.</li>
-<li>A tool button <code class="docutils literal"><span class="pre">...</span></code> that follows <code class="docutils literal"><span class="pre">Report</span></code> line lets the user to select
+<li>A tool button <code class="docutils literal notranslate"><span class="pre">...</span></code> that follows <code class="docutils literal notranslate"><span class="pre">Report</span></code> line lets the user to select
 a destination, where the report file will be saved. Then the blank space
 in the same line is filled with the path to selected destination file with
-<em>.txt</em> suffix. Also the blank space in the <code class="docutils literal"><span class="pre">Shapefile</span></code> is automatically
+<em>.txt</em> suffix. Also the blank space in the <code class="docutils literal notranslate"><span class="pre">Shapefile</span></code> is automatically
 filled with the same path with a different suffix (<em>.shp</em> instead of <em>.txt</em>).</li>
 <li>The destination of the created shapefile could be changed with hitting
-a tool button <code class="docutils literal"><span class="pre">...</span></code> on <code class="docutils literal"><span class="pre">Shapefile</span></code> line.</li>
-<li>Finally, <code class="docutils literal"><span class="pre">Save</span></code> button does all the work, it starts the computation
+a tool button <code class="docutils literal notranslate"><span class="pre">...</span></code> on <code class="docutils literal notranslate"><span class="pre">Shapefile</span></code> line.</li>
+<li>Finally, <code class="docutils literal notranslate"><span class="pre">Save</span></code> button does all the work, it starts the computation
 and saves created files to selected destinations.</li>
 </ul>
-<p>The second tab of the plugin is <code class="docutils literal"><span class="pre">Settings</span></code> tab:</p>
+<p>The second tab of the plugin is <code class="docutils literal notranslate"><span class="pre">Settings</span></code> tab:</p>
 <div class="figure align-center" id="id2">
 <img alt="_images/gui_settings.png" src="_images/gui_settings.png" />
 <p class="caption"><span class="caption-text">Figure 2: The settings tab.</span></p>
 </div>
 <ul class="simple">
 <li>This tab allows the user to change input variables.<ul>
-<li><code class="docutils literal"><span class="pre">Dose</span> <span class="pre">rate</span> <span class="pre">units</span></code> combo box sets the units of gamma radiation dose rate values
+<li><code class="docutils literal notranslate"><span class="pre">Dose</span> <span class="pre">rate</span> <span class="pre">units</span></code> combo box sets the units of gamma radiation dose rate values
 of the interpolated map.</li>
-<li><code class="docutils literal"><span class="pre">Speed</span></code> value determines what speed the mobile team is driving. This value
+<li><code class="docutils literal notranslate"><span class="pre">Speed</span></code> value determines what speed the mobile team is driving. This value
 has to be given.</li>
-<li><code class="docutils literal"><span class="pre">Distance</span> <span class="pre">between</span> <span class="pre">track</span> <span class="pre">vertices</span></code> value is used for sampling the
+<li><code class="docutils literal notranslate"><span class="pre">Distance</span> <span class="pre">between</span> <span class="pre">track</span> <span class="pre">vertices</span></code> value is used for sampling the
 track. If this value is not given, the track will not be sampled.</li>
-<li><code class="docutils literal"><span class="pre">Create</span> <span class="pre">CSV</span> <span class="pre">file</span></code> checkbox gives the user an option, whether to
+<li><code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">CSV</span> <span class="pre">file</span></code> checkbox gives the user an option, whether to
 create CSV file with the same data, that are written to created
 shapefile.</li>
 </ul>
@@ -305,9 +298,7 @@ from previous point, cumulated dose.</li>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
@@ -325,11 +316,11 @@ from previous point, cumulated dose.</li>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2016-2017, Michael Kala (CTU GeoForAll Lab).
+        &copy; Copyright 2016-2018, Michael Kala (CTU GeoForAll Lab).
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -347,7 +338,7 @@ from previous point, cumulated dose.</li>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.1',
+            VERSION:'1.1BETA',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
@@ -361,19 +352,13 @@ from previous point, cumulated dose.</li>
 
   
 
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>
